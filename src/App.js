@@ -1,4 +1,7 @@
+import React from 'react';
 import logo from './logo.svg';
+import Navbar from './components/Navbar';
+import Wrapper from './components/Wrapper';
 import './App.css';
 
 function App() {
