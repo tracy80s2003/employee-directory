@@ -12,7 +12,7 @@ export default {
           const results = users.map(user => {
             return {
               login: user.login,
-              image: user.avatar_url,
+              picture: user.thumbnail,
               gender: gender
             };
           });
