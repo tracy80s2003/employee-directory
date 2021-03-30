@@ -26,7 +26,7 @@ class Main extends React.Component {
     render() {
         return(
             <>
-                <h1>Hello, {this.state.word}</h1>
+                {/* <h1>Hello, {this.state.word}</h1> */}
                 <SearchBar searchFn = {this.searchVal}/>
                 <Table employees={this.state.employees}/>
             </>

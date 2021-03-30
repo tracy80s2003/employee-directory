@@ -5,10 +5,11 @@ const Table = (props) => {
         <table class="table table-dark table-striped">
             <thead>
                 <tr>
-                <th scope="col">#</th>
+                <th scope="col">Gender</th>
                 <th scope="col">First</th>
                 <th scope="col">Last</th>
-                <th scope="col">Handle</th>
+                <th scope="col">Email</th>
+                <th scope="col">State</th>
                 </tr>
             </thead>
             <tbody>
@@ -18,6 +19,7 @@ const Table = (props) => {
                     <td>{element.name.first}</td>
                     <td>{element.name.last}</td>
                     <td>{element.email}</td>
+                    <td>{element.location.state}</td>
                     </tr>
                 ))}
             </tbody>
