@@ -6,8 +6,9 @@ const Table = (props) => {
             <thead>
                 <tr>
                 <th scope="col">Gender</th>
-                <th scope="col">First</th>
-                <th scope="col">Last</th>
+                <th scope="col">First Name</th>
+                <th scope="col">Last Name</th>
+                <th scope="col">Phone #</th>
                 <th scope="col">Email</th>
                 <th scope="col">State</th>
                 </tr>
@@ -15,9 +16,10 @@ const Table = (props) => {
             <tbody>
                 {props.employees.map(element => (
                     <tr>
-                    <th scope="row">{element.gender}</th>
+                    <td>{element.gender}</td>
                     <td>{element.name.first}</td>
                     <td>{element.name.last}</td>
+                    <td>{element.phone}</td>
                     <td>{element.email}</td>
                     <td>{element.location.state}</td>
                     </tr>
