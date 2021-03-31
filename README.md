@@ -22,9 +22,9 @@ The user should be able to:
   * Sort the table by at least one category
   * Filter the users by at least one property.
 
-## Demo
+## Screenshot
 
-<img src="./public/assets/images/employee-directory.gif" />
+<img src="./public/employee-directory.png" />
 
 ## Deploying the Application
 
