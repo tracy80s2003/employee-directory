@@ -5,6 +5,7 @@ const Table = (props) => {
         <table class="table table-dark table-striped">
             <thead>
                 <tr>
+                <th scope="col">Picture</th>
                 <th scope="col">Gender</th>
                 <th scope="col">First Name</th>
                 <th scope="col">Last Name</th>
@@ -16,6 +17,7 @@ const Table = (props) => {
             <tbody>
                 {props.employees.map(element => (
                     <tr>
+                    <td>{element.picture.thumbnail.render}</td>
                     <td>{element.gender}</td>
                     <td>{element.name.first}</td>
                     <td>{element.name.last}</td>

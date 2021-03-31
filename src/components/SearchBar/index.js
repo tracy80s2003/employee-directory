@@ -1,25 +1,6 @@
 import React, { useContext } from "react";
 import DataAreaContext from "../../utils/DataAreaContext";
 
-// function SearchBar(props) {
-//     const context = useContext(DataAreaContext);
-
-//     return (
-//         <div className="searchbox">
-//             <form className="form-inline">
-//                 <input
-//                     value={this.props.search}
-//                     onChange={this.props.handleSearchOptions}
-//                     className="form-control mr-sm-2"
-//                     type="search"
-//                     placeholder="Search"
-//                     aria-label="Search"
-//                 />
-//             </form>
-//         </div>
-//     );
-// }
-
 function SearchBar(props) {
     return (
         <form className="search">
